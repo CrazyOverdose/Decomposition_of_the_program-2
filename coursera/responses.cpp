@@ -5,7 +5,6 @@
 #include <string>
 #include <map>
 
-
 ostream& operator << (ostream& os, const BusesForStopResponse& r) {
 	for (const auto& bus : r.Buses_For_Stop_Response) {
 		os << bus << " ";
