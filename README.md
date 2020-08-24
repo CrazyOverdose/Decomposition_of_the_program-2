@@ -6,7 +6,6 @@
 + enum class QueryType
 + struct Query
 + объявление istream& operator >> (istream& is, Query& q)
-
 2. query.cpp, в него кладём
 
 + определение istream& operator >> (istream& is, Query& q);
